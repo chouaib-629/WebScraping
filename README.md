@@ -72,10 +72,6 @@ Ensure you have Python installed, along with the necessary libraries. For Seleni
 
 This project is managed by a data science enthusiast and full-stack developer experimenting with web scraping techniques.
 
----
-
-Feel free to explore the subfolders and modify the scripts for your learning purposes.
-
 ## Contact Information
 
 For questions or support, please contact [Me](mailto:chouaiba629@gmail.com).
