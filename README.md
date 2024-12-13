@@ -58,7 +58,7 @@ Ensure you have Python installed, along with the necessary libraries. For Seleni
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/chouaib-629/WebScraping.git
    ```
 
 2. Navigate to the desired subfolder to inspect the scraped data or associated scripts.
