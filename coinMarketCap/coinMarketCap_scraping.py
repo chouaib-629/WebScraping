@@ -14,7 +14,7 @@ output_file = 'crypto_data.csv'
 # Define headers for the CSV
 headers = [
     "Coin Rank", "Coin Name", "Coin Code", "Price", "1h Change", "24h Change",
-    "7d Change", "Market Cap", "Volume", "Circulating Supply"
+    "7d Change", "Market Cap", "Volume", "Circulating Supply", "Extraction Time"
 ]
 
 # Open the CSV file for writing
