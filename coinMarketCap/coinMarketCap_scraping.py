@@ -2,14 +2,18 @@
 from selenium import webdriver
 import csv
 import os
+from datetime import datetime
 from functions import extract_page_data
 
 # Set up the Selenium WebDriver
 os.environ['PATH'] += r"C:/SeleniumDrivers"
 driver = webdriver.Chrome()
 
+driver.maximize_window()
+
+current_time = datetime.now()
 # File to save the extracted data
-output_file = 'crypto_data.csv'
+output_file = f'crypto_data_{current_time.strftime('%d-%m-%Y')}_{current_time.strftime('%H-%M')}.csv'
 
 # Define headers for the CSV
 headers = [
